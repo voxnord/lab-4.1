@@ -23,7 +23,7 @@ public class Order {
                 this.products.add(product);
             }
             this.totalPrice += product.getPrice() * quantity;
-            //product.decreaseQuantoty(quantity);
+            product.decreaseQuantity(quantity);
         }
     }
 

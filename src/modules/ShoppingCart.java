@@ -6,7 +6,7 @@ import java.util.Map;
 public class ShoppingCart {
     private Map<Product, Integer> cart;
 
-    private ShoppingCart() {
+    public ShoppingCart() {
         this.cart = new HashMap<>();
     }
 
